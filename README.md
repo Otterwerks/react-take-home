@@ -22,7 +22,7 @@ I chose not to use the provided create-react-app starting point and instead opte
 with my own React/Redux boilerplate. I wanted to include Redux in this project in order to provide a
 way of organizing the app that would allow for modularity and future expansion.
 
-With the introductin of Hooks in React 16.8, the community appears to be trending toward using functional components over class based components when possible. React Hooks allowed me to incorporate localized state and React lifecycle methods without utitlizing class based components in this project.
+With the introduction of Hooks in React 16.8, the community appears to be trending toward using functional components over class based components when possible. React Hooks allowed me to incorporate localized state and React lifecycle methods without utitlizing class based components in this project.
 
 Certain details were inferred from the sketch such as a sticky navbar/header and some form of UI
 indication for copying links to the clipboard. Two resource related problems I encountered were
