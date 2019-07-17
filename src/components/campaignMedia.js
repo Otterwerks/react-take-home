@@ -24,7 +24,7 @@ const CampaignMedia = ({ media, showMessage, hideMessage }) => {
     return (
         <div className="campaign-media-item">
             <div className="campaign-media-preview">
-                {video == false ? <img className="campaign-cover-photo" src={media.cover_photo_url} /> : <video className="campaign-cover-photo" autoPlay><source src={media.download_url} type="video/mp4" /></video>} 
+                {video == false ? <img className={media.media_type == 'video' ? "campaign-video-preview" : "campaign-cover-photo"} src={media.cover_photo_url} /> : <video className="campaign-cover-photo" autoPlay><source src={media.download_url} type="video/mp4" /></video>} 
                 {media.media_type == 'video' && video == false && <span className="media-play-icon"><a onClick={() => showVideo(true)}><FontAwesomeIcon icon={faPlay} size="2x" /></a></span>}
             </div>
             <div className="campaign-links">
