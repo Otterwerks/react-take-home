@@ -27,7 +27,7 @@ With the introduction of Hooks in React 16.8, the community appears to be trendi
 Certain details were inferred from the sketch such as a sticky navbar/header and some form of UI
 indication for copying links to the clipboard. Two resource related problems I encountered were
 campaign names being too long to display correctly and a media cover photo that was in the landscape
-orientation. I made the choice to truncate campaign names to fit correctly in the page and would solve the cover photo issue by checking dimensions of the photo and displaying a placeholder if the image was not in the portrait orientation.
+orientation. I made the choice to truncate campaign names to fit correctly in the page and solved the cover photo issue by stretching the photo into a portrait orientation. 
 
 # --------------------------------------------
 
